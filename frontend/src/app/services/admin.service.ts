@@ -10,7 +10,7 @@ import { Admin } from '../models/admin';
 })
 export class AdminService {
 
-  urlBase: string = "http://localhost:3000/api/";
+  urlBase: string = "http://backend:3000/api/";
 
 
   constructor(private httpClient: HttpClient,private usuarioService:UsuarioService, private gestorService:GestorService) { 

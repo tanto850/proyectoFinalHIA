@@ -10,7 +10,7 @@ export class LoginService {
   hostBD:string;
   
   constructor(private http:HttpClient) {
-    this.hostBD='http://localhost:3000/api/turismo/login';
+    this.hostBD='http://backend:3000/api/turismo/login';
    }
 
    public login(username:string,password:string):Observable<any>{

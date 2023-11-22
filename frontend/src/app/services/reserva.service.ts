@@ -9,7 +9,7 @@ import { Usuario } from '../models/usuario.model';
 })
 export class ReservaService {
 
-  urlBase: string = "http://localhost:3000/api/";
+  urlBase: string = "http://backend:3000/api/";
 
   constructor(private _http:HttpClient) { }
 

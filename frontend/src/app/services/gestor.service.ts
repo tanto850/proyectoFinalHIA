@@ -9,7 +9,7 @@ import { Token } from '@angular/compiler';
 })
 export class GestorService {
 
-  urlBase: string = "http://localhost:3000/api/";
+  urlBase: string = "http://backend:3000/api/";
 
   constructor(private httpClient: HttpClient) {
 
